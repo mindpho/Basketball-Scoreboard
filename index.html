@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="scoreArea">
+           <div class="container">
+                <div>
+                    <h3>HOME</h3>
+                    <div id="homeScore">0</div>
+                    <button onclick="button1h()">+1</button>
+                    <button onclick="button2h()">+2</button>
+                    <button onclick="button3h()">+3</button>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div id="guestScore">0</div>
+                    <button onclick="button1g()">+1</button>
+                    <button onclick="button2g()">+2</button>
+                    <button onclick="button3g()">+3</button>
+                </div>
+            </div>
+            <button id="reset" onclick="reset()">NEW GAME</button>
+        </div>  
+        <script src="script.js"></script>
+    </body>
+</html>
